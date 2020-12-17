@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+ #game-container{
+  /* The image used */
+  background-image:url("img/bank achtergrond.jpg");
+
+  /* Full height */
+  height: 95%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:100%;
+  position: absolute; 
+}
+#button1, #button2, #button3{
+	background-color:#7FFF00;
+	color:black;
+	margin:10px;
+	border-color:black;
+	 padding:10px;
+}
+
+#game-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:100%;
+  position: absolute; 
+  bottom:25px; 
+  margin:0 auto;
+}
+#description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width:100%;
+  position: absolute; 
+  bottom:80px; 
+  margin:0 auto;
+  background-color:white;
+}
+#inventoryItem{
+	width:15px;
+	position: absolute;
+	top:200px;
+	right:470px;
+	opacity: 0.6;
+}
+#knup{
+	height:25px;
+	width:50px;
+	position: absolute;
+	bottom:80px;
+}
